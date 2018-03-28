@@ -14,8 +14,7 @@ spring:
 mybatis:
   type-aliases-package: com.example.pojo
   mapper-locations: com/mapper/*.xml
-server:
-  port: 10007
+ 
 logging:
   level:
     com.example.dao: DEBUG
